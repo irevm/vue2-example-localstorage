@@ -8,6 +8,22 @@
   </div>
 </template>
 
+<script>
+
+export default {
+  name: 'App',
+  mounted: function() {
+    
+  },
+  beforeCreate: function(){
+    this.$store.commit('init')
+  },
+  components: {
+    
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
